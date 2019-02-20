@@ -1,0 +1,37 @@
+{
+  "name": "@allboatsrise/reservoir-dogs-challenge",
+  "version": "0.1.0",
+  "description": "Simple exercise to test comfort with different technologies and libraries.",
+  "dependencies": {
+    "@beyonk/google-fonts-webpack-plugin": "^1.2.2",
+    "axios": "^0.18.0",
+    "babel-loader": "^7.1.5",
+    "bulma": "^0.7.4",
+    "sass": "^1.17.0",
+    "stimulus": "^1.1.1"
+  },
+  "watch": true,
+  "watchOptions": {
+    "ignored": [
+      "/node_modules/"
+    ]
+  },
+  "author": "Andrej Pavlovic <apavlovic@allboatsrise.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "__build": "webpack --mode production"
+  }
+}
